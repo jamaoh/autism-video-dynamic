@@ -72,7 +72,7 @@
   results = inference_topdown(model, 'demo.jpg')
   print(results)
 - The code will estimate body keypoints and display the data.
-- If this works, is is possible to continue with the keypoint exatraction script (i.e., estimate keypoints and save data as JSON files).
+- If this works, it is possible to continue with the keypoint exatraction script (i.e., estimate keypoints and save data as JSON files).
 
 
 ## 1.2. Person Detection and Tracking - Supervision Installation
