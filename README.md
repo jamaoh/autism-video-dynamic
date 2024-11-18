@@ -1,6 +1,6 @@
 # 1. Computer Vision Tasks
 
-## MMPose Installation Guide
+## 1.1. MMPose Installation Guide
 
 ### Prerequisites
 - Ensure you have Python 3.7+ and CUDA 9.2+ installed. To check, run:
