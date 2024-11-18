@@ -93,3 +93,4 @@
   conda install -c conda-forge supervision
   conda install conda-forge::ultralytics
   conda install pytorch torchvision torchaudio cudatoolkit=11.8 -c pytorch -c nvidia
+- Activate the environment / choose correct Python interpreter when executing the tracking script. 
