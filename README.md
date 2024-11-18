@@ -1,6 +1,6 @@
 # 1. Computer Vision Tools
 
-## 1.1. Keypoint Detection - MMPose Installation
+## 1.1. Keypoint Detection - [MMPose](https://github.com/open-mmlab/mmpose) Installation
 
 ### Prerequisites
 - Ensure you have Python 3.7+ and CUDA 9.2+ installed. To check, run:
@@ -20,7 +20,7 @@
 - Note: This approach assumes you have a GPU platform.
 
 ### Step 3: Install Microsoft C++ Build Tools
-- Install "Microsoft C++ Build Tools" from the Visual Studio Installer at https://visualstudio.microsoft.com/de/visual-cpp-build-tools/.
+- Install [Microsoft C++ Build Tools](https://visualstudio.microsoft.com/de/visual-cpp-build-tools/) from the Visual Studio Installer.
 - During installation, select "Desktop Development with C++" (this includes the necessary compiler).
 
 ### Step 4: Install MMEngine and MMCV
@@ -75,7 +75,7 @@
 - If this works, it is possible to continue with the keypoint extraction script (i.e., estimate keypoints and save data as JSON files).
 
 
-## 1.2. Person Detection and Tracking - Supervision Installation
+## 1.2. Person Detection and Tracking - [Supervision](https://github.com/roboflow/supervision) Installation
 
 ### Prerequisites
 - Ensure you have Python 3.8+ installed.
