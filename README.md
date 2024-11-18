@@ -9,7 +9,7 @@
   python --version
 
 ### Step 1: Install Miniconda
-- Download and install Miniconda from https://docs.anaconda.com/miniconda/.
+- Download and install [Miniconda](https://docs.anaconda.com/miniconda/).
 
 ### Step 2: Create Conda Environment with PyTorch
 - Open the command prompt, create a new Conda environment, and make sure PyTorch is installed:
