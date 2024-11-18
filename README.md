@@ -11,7 +11,7 @@
 ### Step 1: Install Miniconda
 - Download and install Miniconda from https://docs.anaconda.com/miniconda/.
 
-### Step 2: Create and Set up Conda Environment
+### Step 2: Create Conda Environment with PyTorch
 - Open the command prompt, create a new Conda environment, and make sure PyTorch is installed:
   ```bash
   conda create --name mmpose python=3.8 -y
@@ -51,7 +51,7 @@
   ```bash
   mim install "mmpose>=1.1.0"
 
-### Step 8: Run an Inference test
+### Step 8: Run an Inference Test
 - Download a congif and checkpoint file to verify the installation:
   ```bash
   mim download mmpose --config td-hm_hrnet-w48_8xb32-210e_coco-256x192 --dest .
