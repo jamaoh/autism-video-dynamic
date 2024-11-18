@@ -1,6 +1,6 @@
 # 1. Computer Vision Tools
 
-## 1.1. MMPose Installation Guide
+## 1.1. Keypoint Detection - MMPose Installation
 
 ### Prerequisites
 - Ensure you have Python 3.7+ and CUDA 9.2+ installed. To check, run:
@@ -73,3 +73,23 @@
   print(results)
 - The code will estimate body keypoints and display the data.
 - If this works, is is possible to continue with the keypoint exatraction script (i.e., estimate keypoints and save data as JSON files).
+
+
+## 1.2. Person Detection and Tracking - Supervision Installation
+
+### Prerequisites
+- Ensure you have Python 3.8+ installed.
+
+### Step 1: Create Conda Environment
+- Create a new Conda environment for the tracking tasks. 
+  ```bash
+  conda create -n tracking
+  conda activate tracking
+
+### Step 2: Install Necessary Libraries
+- Install the libraries of interest using Conda for improved dependency management.
+- PyTorch needs to be set up in order to import the YOLO model from Ultralytics. Specify both PyTorch and Nvidia channels to ensure CUDA compatibility.
+  ```bash
+  conda install -c conda-forge supervision
+  conda install conda-forge::ultralytics
+  conda install pytorch torchvision torchaudio cudatoolkit=11.8 -c pytorch -c nvidia
