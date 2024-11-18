@@ -20,7 +20,7 @@
 - Note: This approach assumes you have a GPU platform.
 
 ### Step 3: Install Microsoft C++ Build Tools
-- Install "Microsoft C++ Build Tools" from the Visual Studio Installer.
+- Install "Microsoft C++ Build Tools" from the Visual Studio Installer at https://visualstudio.microsoft.com/de/visual-cpp-build-tools/.
 - During installation, select "Desktop Development with C++" (this includes the necessary compiler).
 
 ### Step 4: Install MMEngine and MMCV
