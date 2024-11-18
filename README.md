@@ -1,4 +1,4 @@
-# 1. Computer Vision Tasks
+# 1. Computer Vision Tools
 
 ## 1.1. MMPose Installation Guide
 
