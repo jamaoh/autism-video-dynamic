@@ -55,7 +55,8 @@
 - Download a congif and checkpoint file to verify the installation:
   ```bash
   mim download mmpose --config td-hm_hrnet-w48_8xb32-210e_coco-256x192 --dest .
-- Test the installation by applying inference on an example image:
+- Test the installation by applying inference on an example image in Python.
+- Ensure to choose the correct Python interpreter linked to the MMPose environment created in Step 2, e.g., "3.8.20 (mmpose)":
   ```python
   from mmpose.apis import inference_topdown, init_model
   from mmpose.utils import register_all_modules
